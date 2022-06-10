@@ -1,14 +1,13 @@
 pkgbase = perl-ogg-vorbis-header-pureperl
 	pkgdesc = Perl/CPAN module Ogg::Vorbis::Header::PurePerl - An object-oriented interface to Ogg Vorbis info and comments
-	pkgver = 1.0
+	pkgver = 1.05
 	pkgrel = 1
-	url = http://search.cpan.org/~daniel/Ogg-Vorbis-Header-PurePerl-1.0/PurePerl.pm
+	url = https://metacpan.org/release/DANIEL/Ogg-Vorbis-Header-PurePerl-1.05
 	arch = any
 	license = GPL
 	options = !emptydirs
 	options = purge
-	source = http://search.cpan.org/CPAN/authors/id/D/DA/DANIEL/Ogg-Vorbis-Header-PurePerl-1.0.tar.gz
-	md5sums = 1b09cefefd4a83bd4a53d2fddbd0bc68
+	source = http://cpan.metacpan.org/authors/id/D/DA/DAVECROSS/Ogg-Vorbis-Header-PurePerl-1.05.tar.gz
+	sha512sums = 46d040ad8cd7d51187ca06b4d8968ad9009a8f4e2b5a164cb5318b8ec126adba787b0d70ace6feda810eaea37e63761dc25dbaa399d86c8fd1a13fe0fc07296f
 
 pkgname = perl-ogg-vorbis-header-pureperl
-
