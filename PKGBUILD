@@ -9,8 +9,8 @@
 # ToDo: Add files: Tooling
 # FixMe: Namcap warnings and errors
 
-# Maintainer: Ross Clark <archiv8@artisteducator.com>
-# Contributor: Ross Clark <archiv8@artisteducator.com>
+# Maintainer: Ross Clark <https://github.com/Archiv8/perl-ogg-vorbis-header-pureperl/discussions>
+# Contributor: Ross Clark <https://github.com/Archiv8/perl-ogg-vorbis-header-pureperl/discussions>
 
 _relname="Ogg-Vorbis-Header-PurePerl"
 
@@ -46,5 +46,5 @@ package() {
 
   make || return 1
 
-  make install DESTDIR=${pkgdir} || return 1
+  make install DESTDIR="${pkgdir}" || return 1
 }
